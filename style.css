@@ -1,61 +1,104 @@
-body {
-    background-color: rgb(253, 251, 251);
-    font-family: 'Josefin Sans', sans-serif;
+body{
+    background-color:rgb(253, 251, 251);
+    font-family:'Josefin Sans', sans-serif;
 }
 
-header {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    width: 100%;
-    background-color: rgb(99, 27, 172);
-    border-bottom: 3px solid rgb(0, 0, 0);
-    text-align: center;
-    line-height: 15px;
+header{
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    width:100%;
+    background-color:rgb(99, 27, 172);
+    border-bottom:3px solid rgb(0, 0, 0);
+    text-align:center;
+    line-height:10px;
 }
+
 header h1{
-    margin: 10px;
-    padding: 10px;
-    border: 0px;
+    margin:10px;
+    padding:10px;
+    border:0px;
+}
+
+img{
+    position:fixed;
+    right:0%;
+    top: 37px;
+    border-radius:100%;
+    width:80px;
+    border:8px solid rgb(0, 0, 0);;
+}
+
+img:hover{
+    width: 200px;
 }
 
 nav ul li{
-    display: inline;
-    text-align: left;
-    margin-right: 100px;
-    padding: 5px;
+    display:inline;
+    text-align:left;
+    margin-right:100px;
+    padding:5px;
 }
 
 nav ul li a{
-    color: rgb(255, 255, 255);
-}
-img{
-    border-radius: 100%;
-    width: 100px;
-    display: inline-block;
-    position: fixed;
-    right: 0%;
-    top: 3px;
-    border: 8px solid rgb(0, 0, 0);;
-}
-ul li{
-    list-style: none;
+    color:rgb(255, 255, 255);
 }
 
-main{
-    padding-top: 120px;
+nav ul li a:hover{
+    color: rgb(0, 255, 242);
+}
+
+.lado-esquerdo{
+    display:block;
+    float:left;
+    width:50%;
+    margin-top:80px;
+}
+
+.lado-direito{
+    display:block;
+    float:right;
+    top:85px;
+    width:49%;
+    margin-top:80px;
+    padding-bottom:200px;
+}
+
+ol#licoes_aprendidas{
+    display:block;
+}
+
+ul {
+    display:block;
+    list-style:none;
+}
+
+table#tabela{
+    width:420px;
 }
 
 table thead{
-    text-align: center;
-    font-size: larger;
-    font-weight: bold;
+    text-align:center;
+    font-size:larger;
+    font-weight:bold;
 }
 
 table tr td{
-    text-align: center;
-    margin: 10px;
-    padding: 5px;
-    border: auto;
+    text-align:center;
+}
+
+footer#rodape{
+    text-align:center;
+    display:inline;
+    margin-top:100px;
+}
+
+span#email{
+    color: rgb(17, 0, 255);
+}
+
+#credito-pagina{
+    display:block;
+    text-align:center;
 }
